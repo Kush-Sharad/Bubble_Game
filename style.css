@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 92, 97);
+}
+
+.icon{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    width: 140px;
+    height: 80px;
+    color: aliceblue;
+    /* background-color: rgb(157, 96, 96); */
+}
+
+.panel{
+    position: absolute;
+    /* left: 20%; */
+    top: 15%;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.ptop{
+    justify-content: space-between;
+    padding: 0px 25%;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.element h2{
+    font-weight: 800;
+    font-size: 22px;
+}
+.box{
+    color: black;
+    font-weight: 800;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+.pbottom{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;   /*It is used to make bubble to new line*/
+    gap: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(67, 69, 84, 0.4);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: brown;
+}
